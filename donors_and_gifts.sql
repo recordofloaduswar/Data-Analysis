@@ -38,10 +38,8 @@ ORDER BY
 
 
 /* # of gifts per appeal */
-/* "M0004"	215   "E0002"	244
-"W0001"	189   "E0001"	223
-"M0002"	208   "M0003"	201
-"M0001"	220 */
+/* M0004 - 215   E0002 - 244   W0001 - 189   E0001 - 223
+M0002 - 208   M0003 - 201   M0001 - 220 */
 SELECT
 	appeal,
 	COUNT (gift_id) AS total_gifts
